@@ -10,6 +10,6 @@ Neovim setup in ubuntu
 6. Create lazy lua file  - ./lua/config/lazy.lua
 7. Create plugin lua files - ./plugins/nvimtree.lua , ./plugins/telescope.lua, ./plugins/lualine.lua, ./plugins/catppuccin.lua
 8. Bootstrap plugins - add the following lines to ~/.config/nvim/init.lua
-* require('config.lazy')
-* require('lualine').setup()
-* vim.cmd.colorscheme "catppuccin-frappe"
+    * require('config.lazy')
+    * require('lualine').setup()
+    * vim.cmd.colorscheme "catppuccin-frappe"
