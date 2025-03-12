@@ -7,6 +7,7 @@ Neovim setup in ubuntu
 
 1. Install neovim using apt install
     * sudo apt install neovim
+    * https://github.com/neovim/neovim/blob/master/INSTALL.md
 2. Locate config folder - 
     * cd ~/.config/nvim
 3. Create init.lua file
@@ -14,6 +15,7 @@ Neovim setup in ubuntu
 5. Create lazy folder structure
     * ./lua/config
     * ./lua/plugins
+    * https://lazy.folke.io/installation
 6. Create lazy lua file
     * ./lua/config/lazy.lua
 7. Create plugin lua files
@@ -21,6 +23,10 @@ Neovim setup in ubuntu
     * ./plugins/telescope.lua
     * ./plugins/lualine.lua
     * ./plugins/catppuccin.lua
+    * https://github.com/nvim-tree/nvim-tree.lua
+    * https://github.com/nvim-telescope/telescope.nvim
+    * https://github.com/nvim-lualine/lualine.nvim
+    * https://github.com/catppuccin/nvim
 8. Bootstrap plugins - add the following lines to ~/.config/nvim/init.lua
     * require('config.lazy')
     * require('lualine').setup()
