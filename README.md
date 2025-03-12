@@ -1,9 +1,9 @@
 # nvim-ubuntu
 Neovim setup in ubuntu
 
-|Tips                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------|
-|Instructions after step 4 can be simplified by copying the contents of this git repo into your config directory.|
+|Tips                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------|
+|Instructions after step 4 can be simplified by copying the contents of this git repo into your config/nvim directory.|
 
 1. Install neovim using apt install
     * sudo apt install neovim
